@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T11:34:01-05:00</updated>
+  <updated>2012-03-30T11:36:08-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -27,8 +27,9 @@ Ruby 1.9.2
 
 <h2>安裝 git</h2>
 
-<p><code>bash 安裝 Homebrew
-/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
+<p><code>bash 安裝 Homebrew 與 git
+$ /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
+$ homebrew install git
 </code></p>
 ]]></content>
   </entry>
