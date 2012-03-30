@@ -119,6 +119,19 @@ $ /usr/bin/ruby -e &quot;$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/ &he
 <blockquote><p>使用 Xcode 4.3，在安裝時可能會遭遇一些問題，可安裝 osx-gcc-installer 解決</p></blockquote>
 
 
+<h3>安裝 rvm 管理 ruby 版本</h3>
+
+<figure class='code'><figcaption><span>安裝 rvm</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>bash -s stable &lt; &lt;<span class="o">(</span>curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer<span class="o">)</span>
+</span><span class='line'><span class="nv">$ </span><span class="nb">source</span> ~/.rvm/scripts/rvm
+</span><span class='line'><span class="nv">$ </span>rvm install 1.9.3
+</span><span class='line'><span class="nv">$ </span>rvm use 1.9.3
+</span></code></pre></td></tr></table></div></figure>
+
+
 
 </div>
 

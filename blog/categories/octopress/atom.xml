@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T14:09:13-05:00</updated>
+  <updated>2012-03-30T14:13:05-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -35,6 +35,15 @@ $ homebrew install git
 <h2>安裝 Ruby</h2>
 
 <p><blockquote><p>使用 Xcode 4.3，在安裝時可能會遭遇一些問題，可安裝 osx-gcc-installer 解決</p></blockquote></p>
+
+<h3>安裝 rvm 管理 ruby 版本</h3>
+
+<p><code>bash 安裝 rvm
+$ bash -s stable &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+$ source ~/.rvm/scripts/rvm
+$ rvm install 1.9.3
+$ rvm use 1.9.3
+</code></p>
 ]]></content>
   </entry>
   
