@@ -4,7 +4,7 @@
   <title><![CDATA[skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T11:27:55-05:00</updated>
+  <updated>2012-03-30T11:34:01-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -18,12 +18,19 @@
     <link href="http://changwu-tw.github.com/blog/2012/03/30/install-octopress/"/>
     <updated>2012-03-30T11:13:00-05:00</updated>
     <id>http://changwu-tw.github.com/blog/2012/03/30/install-octopress</id>
-    <content type="html"><![CDATA[<p>安裝 Octopress 前，須安裝</p>
+    <content type="html"><![CDATA[<h2>安裝 Octopress 前，須具備</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>. git
-</span><span class='line'>. Ruby 1.9.2</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git
+</span><span class='line'>Ruby 1.9.2</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>安裝 git</h2>
+
+<figure class='code'><figcaption><span>安裝 Homebrew</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>/usr/bin/ruby -e <span class="s2">&quot;$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
   </entry>
