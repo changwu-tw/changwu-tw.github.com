@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | skywalking's blog]]></title>
+  <link href="http://changwu-tw.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://changwu-tw.github.com/"/>
+  <updated>2012-03-30T11:19:49-05:00</updated>
+  <id>http://changwu-tw.github.com/</id>
+  <author>
+    <name><![CDATA[Chang-Wu Chen]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Install Octopress]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/03/30/install-octopress/"/>
+    <updated>2012-03-30T11:13:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/03/30/install-octopress</id>
+    <content type="html"><![CDATA[<p>安裝 Octopress 之前，必須安裝
+<code>
+1. git
+2. Ruby 1.9.2
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
