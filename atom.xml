@@ -4,7 +4,7 @@
   <title><![CDATA[skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T11:27:12-05:00</updated>
+  <updated>2012-03-30T11:27:55-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -20,10 +20,11 @@
     <id>http://changwu-tw.github.com/blog/2012/03/30/install-octopress</id>
     <content type="html"><![CDATA[<p>安裝 Octopress 前，須安裝</p>
 
-<p><code>
-1. git
-2. Ruby 1.9.2
-</code></p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>. git
+</span><span class='line'>. Ruby 1.9.2</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
