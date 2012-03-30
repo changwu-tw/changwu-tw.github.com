@@ -4,7 +4,7 @@
   <title><![CDATA[skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T14:20:28-05:00</updated>
+  <updated>2012-03-30T14:27:17-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -37,7 +37,7 @@
 
 <h2>安裝 Ruby</h2>
 
-<blockquote><p>使用 Xcode 4.3，在安裝時可能會遭遇一些問題，可安裝 [osx-gcc-installer](https://github.com/kennethreitz/osx-gcc-installer) 解決</p></blockquote>
+<blockquote><p>使用 Xcode 4.3，在安裝時可能會遭遇一些問題，可安裝 osx-gcc-installer 解決</p></blockquote>
 
 
 <h3>安裝 rvm 管理 ruby 版本</h3>
@@ -72,9 +72,9 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h2>部落格設置</h2>
+<h2>相關設定</h2>
 
-<p>配置 _config.yml</p>
+<p>配置 <code>_config.yml</code></p>
 ]]></content>
   </entry>
   
