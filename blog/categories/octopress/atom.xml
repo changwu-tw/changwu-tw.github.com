@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T14:13:05-05:00</updated>
+  <updated>2012-03-30T14:15:14-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -43,6 +43,18 @@ $ bash -s stable &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/maste
 $ source ~/.rvm/scripts/rvm
 $ rvm install 1.9.3
 $ rvm use 1.9.3
+</code></p>
+
+<h2>安裝 Octopress</h2>
+
+<p><code>bash 安裝 Octopress
+$ git clone git://github.com/imathis/octopress.git octopress
+$ echo rvm use 1.9.3 &gt; octopress/.rvmrc
+$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
+$ cd octopress
+$ gem install bundler
+$ bundle install
+$ rake install
 </code></p>
 ]]></content>
   </entry>
