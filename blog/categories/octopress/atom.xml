@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T14:15:14-05:00</updated>
+  <updated>2012-03-30T14:17:11-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -18,7 +18,7 @@
     <link href="http://changwu-tw.github.com/blog/2012/03/30/install-octopress/"/>
     <updated>2012-03-30T11:13:00-05:00</updated>
     <id>http://changwu-tw.github.com/blog/2012/03/30/install-octopress</id>
-    <content type="html"><![CDATA[<h2>安裝 Octopress 前，須具備</h2>
+    <content type="html"><![CDATA[<h2>準備工具</h2>
 
 <p><code>
 git
