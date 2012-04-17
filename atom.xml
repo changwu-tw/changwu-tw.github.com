@@ -4,7 +4,7 @@
   <title><![CDATA[skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-03-30T17:17:41-05:00</updated>
+  <updated>2012-04-17T11:44:31-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Think More, Talk Less]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/04/17/think-more/"/>
+    <updated>2012-04-17T11:36:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/04/17/think-more</id>
+    <content type="html"><![CDATA[<blockquote><p>As Stephen Hawking said, &#8220;Quiet people have the loudest minds.&#8221;</p></blockquote>
+
+<p><img class="left" src="http://joba.cc/~skywalking/pic/think-more.jpg" title="Think more" ></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[[轉錄] 想成為知法自保者，你我都應該做的練習題]]></title>
