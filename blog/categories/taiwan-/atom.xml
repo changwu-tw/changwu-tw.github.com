@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[skywalking's blog]]></title>
-  <link href="http://changwu-tw.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Taiwan, | skywalking's blog]]></title>
+  <link href="http://changwu-tw.github.com/blog/categories/taiwan-/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
   <updated>2012-04-21T14:10:44-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
@@ -12,47 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[嘸通嫌台灣 / 詞：林央敏 / 曲：蕭泰然 ]]></title>
-    <link href="http://changwu-tw.github.com/blog/2012/04/21/love-taiwan/"/>
-    <updated>2012-04-21T13:34:00-05:00</updated>
-    <id>http://changwu-tw.github.com/blog/2012/04/21/love-taiwan</id>
-    <content type="html"><![CDATA[<div class="video-container">
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/SprIeJxHrmY" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
-<p>《嘸通嫌台灣》</p>
-
-<p>詞／林央敏　曲／蕭泰然</p>
-
-<p>女高音／葉君儀　鋼琴／王愛倫</p>
-
-<p>咱若愛祖先　請你嘸通嫌台灣　土地雖然有卡隘</p>
-
-<p>阿爸的汗　阿母的血　沃落鄉土滿四界</p>
-
-<p>咱若愛子孫　請你嘸通嫌台灣　也有田園也有山</p>
-
-<p>果籽的甜　五穀的香　乎咱後代吃未空</p>
-
-<p>咱若愛故鄉　請你嘸通嫌台灣　雖然討趁無輕鬆</p>
-
-<p>認真打拚　前途有望　咱的幸福未輸人</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Think More, Talk Less]]></title>
-    <link href="http://changwu-tw.github.com/blog/2012/04/17/think-more/"/>
-    <updated>2012-04-17T11:36:00-05:00</updated>
-    <id>http://changwu-tw.github.com/blog/2012/04/17/think-more</id>
-    <content type="html"><![CDATA[<p><img src="http://joba.cc/~skywalking/pic/think-more.jpg" alt="Think More, Talk Less" /></p>
-
-<blockquote><p>As Stephen Hawking said, &#8220;Quiet people have the loudest minds.&#8221;</p></blockquote>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[[轉錄] 想成為知法自保者，你我都應該做的練習題]]></title>
@@ -161,71 +120,6 @@
 <p>相片轉自台灣立報／黃士航。</p>
 
 <p>看到這，還會覺得現場的學生、聲援的群眾，通通都是搞不清楚狀況的人嗎？</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Install Octopress]]></title>
-    <link href="http://changwu-tw.github.com/blog/2012/03/30/install-octopress/"/>
-    <updated>2012-03-30T11:13:00-05:00</updated>
-    <id>http://changwu-tw.github.com/blog/2012/03/30/install-octopress</id>
-    <content type="html"><![CDATA[<h2>準備工具</h2>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git
-</span><span class='line'>Ruby 1.9.3</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>安裝 git</h2>
-
-<figure class='code'><figcaption><span>安裝 Homebrew 與 git</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>/usr/bin/ruby -e <span class="s2">&quot;$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)&quot;</span>
-</span><span class='line'><span class="nv">$ </span>homebrew install git
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>安裝 Ruby</h2>
-
-<blockquote><p>使用 Xcode 4.3，在安裝時可能會遭遇一些問題，可安裝 osx-gcc-installer 解決</p><footer><strong>kennethreitz</strong> <cite><a href='https://github.com/kennethreitz/osx-gcc-installer'>Osx-gcc-installer</a></cite></footer></blockquote>
-
-
-<h3>安裝 rvm 管理 ruby 版本</h3>
-
-<figure class='code'><figcaption><span>安裝 rvm</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>bash -s stable &lt; &lt;<span class="o">(</span>curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer<span class="o">)</span>
-</span><span class='line'><span class="nv">$ </span><span class="nb">source</span> ~/.rvm/scripts/rvm
-</span><span class='line'><span class="nv">$ </span>rvm install 1.9.3
-</span><span class='line'><span class="nv">$ </span>rvm use 1.9.3
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>安裝 Octopress</h2>
-
-<figure class='code'><figcaption><span>安裝 Octopress</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git clone git://github.com/imathis/octopress.git octopress
-</span><span class='line'><span class="nv">$ </span><span class="nb">echo </span>rvm use 1.9.3 &gt; octopress/.rvmrc
-</span><span class='line'><span class="nv">$ </span>sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
-</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>octopress
-</span><span class='line'><span class="nv">$ </span>gem install bundler
-</span><span class='line'><span class="nv">$ </span>bundle install
-</span><span class='line'><span class="nv">$ </span>rake install
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>相關設定</h2>
-
-<p>配置 <code>_config.yml</code></p>
 ]]></content>
   </entry>
   
