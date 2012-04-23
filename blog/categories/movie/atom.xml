@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Movie | skywalking's blog]]></title>
+  <link href="http://changwu-tw.github.com/blog/categories/movie/atom.xml" rel="self"/>
+  <link href="http://changwu-tw.github.com/"/>
+  <updated>2012-04-22T22:20:09-05:00</updated>
+  <id>http://changwu-tw.github.com/</id>
+  <author>
+    <name><![CDATA[Chang-Wu Chen]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2012_Movie]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/04/22/2012-movie/"/>
+    <updated>2012-04-22T22:04:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/04/22/2012-movie</id>
+    <content type="html"><![CDATA[<ol>
+<li>The Graduate (1967) - 畢業生</li>
+<li>Dog Day Afternoon (1975) - 熱天午後</li>
+<li>Cape Fear (1991) - 海角驚魂/ 恐怖角</li>
+<li>A Brighter Summer Day (1991) - 牯嶺街少年殺人事件</li>
+<li>Billy Elliot (2001) - 舞動人生</li>
+<li>Midnight in Paris (2011) - 午夜巴黎</li>
+<li>The Adventures of Tin Tin: Secret of the Unicorn (2011) - 丁丁歷險記</li>
+<li>Mission: Impossible Ghost Protocol (2011) - 不可能的任務4: 鬼影行動</li>
+<li>The Girl with the Dragon Tattoo (2011) - 千禧三部曲I: 龍紋身的女孩</li>
+<li>Sherlock Holmes: A Game of Shadows (2011) - 福爾摩斯2: 詭影遊戲</li>
+<li>The Descendants (2011) - 繼承人生</li>
+<li>Jump Ashin (2011) - 翻滾吧！阿信</li>
+<li>Mirror, Mirror (2012) - 魔鏡，魔鏡</li>
+<li>You Are the Apple of My Eye (2012) - 那些年，我們一起追的女孩</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
