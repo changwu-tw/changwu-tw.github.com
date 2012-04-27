@@ -1,0 +1,203 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sqlite3 and Ruby - skywalking's blog</title>
+    <meta name="author" content="Chang-Wu Chen">
+
+    
+    <meta name="description" content="Sqlite3 and Ruby Create a database 1
+$ sqlite3 DATABASE_NAME # 產生資料庫 Create a table 1
+2
+3
+4
+5
+CREATE TABLE TABLE_NAME ( id INTEGER PRIMARY KEY, &hellip;">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+    <link href="/atom.xml" rel="alternate" title="skywalking's blog" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+    
+
+</head>
+
+<body>
+	<header class="inner"><h1 class="left"><a href="/">skywalking's blog</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:changwu-tw.github.com">
+	</form>
+	<div class="social right">
+		
+		
+		<a class="google" href="https://plus.google.com/110359138388555199313" title="Google+">Google+</a>
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</div>
+
+</header>
+	
+	<div id="content" class="inner"><article class="post">
+    <h1 class="title">Sqlite3 and Ruby</h1>
+    <div class="entry"><h2>Create a database</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ sqlite3 DATABASE_NAME               # 產生資料庫</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Create a table</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>CREATE TABLE TABLE_NAME (
+</span><span class='line'>  id INTEGER PRIMARY KEY,
+</span><span class='line'>  field1 TEXT NOT NULL,
+</span><span class='line'>  field2 REAL NOT NULL
+</span><span class='line'>);</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Insert data</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>INSERT INTO TABLE_NAME VALUES (null, ?, ?);</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Import CSV data into SQLite table</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sqlite&gt; .separator ","                # 指定分隔符號，預設為 |
+</span><span class='line'>sqlite&gt; .import CSV_FILE TABLE_NAME   # 匯入 CSV 檔案至特定表格</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>List the tables</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sqlite&gt; .tables                       # 顯示所有表格</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Show SQLite schema</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sqlite&gt; .schema TABLE_NAME            # 單一表格的 schema
+</span><span class='line'>sqlite&gt; .schema '%'                   # 所有表格的 schema</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Dump database</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sqlite&gt; .dump TABLE_NAME              # 輸出單一表格
+</span><span class='line'>sqlite&gt; .output FILE_NAME.sql         # 匯出資料庫檔案
+</span><span class='line'>sqlite&gt; .dump                         # 輸出整個資料庫</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Links</h2>
+
+<ol>
+<li><a href="http://zetcode.com/db/sqliteruby/">SQLite Ruby tutorial</a></li>
+<li><a href="http://sqlite-ruby.rubyforge.org/sqlite3/faq.html">SQLite/Ruby FAQ</a></li>
+<li><a href="http://viewsourcecode.org/why/hacking/aQuickGuideToSQLite.html">A Quick Guide to SQLite and Ruby</a></li>
+</ol>
+
+</div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-27T13:09:00-05:00" pubdate data-updated="true">Apr 27<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/ruby/'>Ruby</a>, <a class='category' href='/blog/categories/sqlite-/'>Sqlite,</a>
+  
+</div>
+
+</div>
+        
+        <span class="comments"><a href="#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
+<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer class="inner">Copyright &copy; 2012 skywalking's blog</footer>
+	<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'skyworking';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://changwu-tw.github.com/blog/2012/04/27/sqlite3-and-ruby/';
+        var disqus_url = 'http://changwu-tw.github.com/blog/2012/04/27/sqlite3-and-ruby/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+</html>

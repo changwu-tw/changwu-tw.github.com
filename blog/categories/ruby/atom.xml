@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | skywalking's blog]]></title>
+  <link href="http://changwu-tw.github.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://changwu-tw.github.com/"/>
+  <updated>2012-04-27T14:48:05-05:00</updated>
+  <id>http://changwu-tw.github.com/</id>
+  <author>
+    <name><![CDATA[Chang-Wu Chen]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sqlite3 and Ruby]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/04/27/sqlite3-and-ruby/"/>
+    <updated>2012-04-27T13:09:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/04/27/sqlite3-and-ruby</id>
+    <content type="html"><![CDATA[<h2>Create a database</h2>
+
+<p><code>
+$ sqlite3 DATABASE_NAME               # 產生資料庫
+</code></p>
+
+<h2>Create a table</h2>
+
+<p><code>
+CREATE TABLE TABLE_NAME (
+  id INTEGER PRIMARY KEY,
+  field1 TEXT NOT NULL,
+  field2 REAL NOT NULL
+);
+</code></p>
+
+<h2>Insert data</h2>
+
+<p><code>
+INSERT INTO TABLE_NAME VALUES (null, ?, ?);
+</code></p>
+
+<h2>Import CSV data into SQLite table</h2>
+
+<p><code>
+sqlite&gt; .separator ","                # 指定分隔符號，預設為 |
+sqlite&gt; .import CSV_FILE TABLE_NAME   # 匯入 CSV 檔案至特定表格
+</code></p>
+
+<h2>List the tables</h2>
+
+<p><code>
+sqlite&gt; .tables                       # 顯示所有表格
+</code></p>
+
+<h2>Show SQLite schema</h2>
+
+<p><code>
+sqlite&gt; .schema TABLE_NAME            # 單一表格的 schema
+sqlite&gt; .schema '%'                   # 所有表格的 schema
+</code></p>
+
+<h2>Dump database</h2>
+
+<p><code>
+sqlite&gt; .dump TABLE_NAME              # 輸出單一表格
+sqlite&gt; .output FILE_NAME.sql         # 匯出資料庫檔案
+sqlite&gt; .dump                         # 輸出整個資料庫
+</code></p>
+
+<h2>Links</h2>
+
+<ol>
+<li><a href="http://zetcode.com/db/sqliteruby/">SQLite Ruby tutorial</a></li>
+<li><a href="http://sqlite-ruby.rubyforge.org/sqlite3/faq.html">SQLite/Ruby FAQ</a></li>
+<li><a href="http://viewsourcecode.org/why/hacking/aQuickGuideToSQLite.html">A Quick Guide to SQLite and Ruby</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
