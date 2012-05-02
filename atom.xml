@@ -4,7 +4,7 @@
   <title><![CDATA[skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-04-27T14:48:05-05:00</updated>
+  <updated>2012-05-02T12:12:01-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -12,6 +12,140 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Take it easy]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/05/02/take-it-easy/"/>
+    <updated>2012-05-02T11:02:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/05/02/take-it-easy</id>
+    <content type="html"><![CDATA[<ol>
+<li>Pull yourself together.  振作起來</li>
+<li>Keep your chin up.  別灰心</li>
+<li>Don&#8217;t let it get you down. It will be over with soon. 別為此煩惱。事情很快就會過去的</li>
+<li>Don&#8217;t be so miserable!  別愁眉苦臉的</li>
+<li>Cheer up! things will work out for the best. 高興點兒。事情會有好結果的</li>
+<li>Take heart- we&#8217;ll find a way out. 振作起來，我們會有辦法的</li>
+<li>Keep trying! Don&#8217;t give up the ship. 繼續努力! 別輕易放棄!</li>
+<li>Loosen up! It&#8217;s not worth getting upset about. 放鬆點兒！不值得為這件事苦惱</li>
+<li>Hang in there. Things will get better. 堅持住，情況會好起來</li>
+<li>Keep smiling! things will calm down. 樂觀一點，事情會平息下來的</li>
+<li>It&#8217;s not as bad as all that. 事情沒有那麼糟</li>
+<li>Things are never as bad as they seem. 事情往往不像看上去的那麼糟</li>
+<li>Win a few, lose a few. That&#8217;s life. 有得也有失，生活就是如此</li>
+<li>Let&#8217;s look on the bright side. 我們來看看它好的一面</li>
+<li>Every cloud has a silver lining. 守的雲開見明月</li>
+<li>When god closes a door, he opens a window. 山不轉水轉</li>
+<li>Tomorrow is another day. 有明天就有希望</li>
+<li>Stop carrying the weight of the world on your shoulders. 別太操心了，沒有你地球照樣轉
+
+<blockquote><p>carry the weight of the world on one&#8217;s shoulders 自以為重任在肩</p></blockquote></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Install Ruby on Rails on Mac OS X]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/05/01/install-ruby-on-rails-on-mac-os-x/"/>
+    <updated>2012-05-01T16:03:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/05/01/install-ruby-on-rails-on-mac-os-x</id>
+    <content type="html"><![CDATA[<h2>開發環境</h2>
+
+<ul>
+<li>Mac OS X 10.7.3</li>
+<li>Ruby 1.9.3</li>
+<li>RubyGems 1.8.22</li>
+<li>Rails 3.2.3</li>
+<li>SQLite 3.7.10</li>
+</ul>
+
+
+<h2>Xcode 4.3.2</h2>
+
+<ul>
+<li>安裝 Command Line Tools</li>
+</ul>
+
+
+<p><img src="http://f.cl.ly/items/423w1D040l171q1F2H2q/2012-05-02.png"></p>
+
+<h2>安裝 Homebrew</h2>
+
+<p><a href="http://mxcl.github.com/homebrew/">Homebrew</a></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>/usr/bin/ruby -e <span class="s2">&quot;$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>安裝 git &amp; sqlite</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>brew install git
+</span><span class='line'><span class="nv">$ </span>brew install sqlite
+</span><span class='line'><span class="nv">$ </span>brew update
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>安裝 RVM</h2>
+
+<p><a href="https://rvm.io/rvm/install/">RVM</a></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>curl -L get.rvm.io | bash -s stable
+</span><span class='line'><span class="nv">$ </span><span class="nb">source</span> ~/.rvm/scripts/rvm
+</span><span class='line'><span class="nv">$ </span>rvm install 1.9.3
+</span><span class='line'><span class="nv">$ </span>rvm 1.9.3 --default
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>安裝 sqlite3 &amp; rails</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gem install sqlite3 --no-ri --no-rdoc
+</span><span class='line'><span class="nv">$ </span>gem install rails --no-ri --no-rdoc
+</span><span class='line'><span class="nv">$ </span>gem update --system
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>新增 ~/.gemrc，內容如下，預設就不會產生文件：</li>
+</ul>
+
+
+<p><code>--no-ri --no-rdoc</code></p>
+
+<h2>安裝 Pow</h2>
+
+<p><a href="http://pow.cx/">Pow</a></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>curl get.pow.cx | sh
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>使用方式</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">cd</span> ~/.pow
+</span><span class='line'><span class="nv">$ </span>ln -s /path/to/myapp project-name
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>開啟 http://project-name.dev 就可存取網頁了</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sqlite3 and Ruby]]></title>
