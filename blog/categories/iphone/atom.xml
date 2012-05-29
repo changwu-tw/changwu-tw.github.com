@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iphone | skywalking's blog]]></title>
+  <link href="http://changwu-tw.github.com/blog/categories/iphone/atom.xml" rel="self"/>
+  <link href="http://changwu-tw.github.com/"/>
+  <updated>2012-05-29T18:23:49-05:00</updated>
+  <id>http://changwu-tw.github.com/</id>
+  <author>
+    <name><![CDATA[Chang-Wu Chen]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[iPhone 越獄]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/05/29/jailbreak-for-iphone/"/>
+    <updated>2012-05-29T15:51:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/05/29/jailbreak-for-iphone</id>
+    <content type="html"><![CDATA[<h1>Jailbreak</h1>
+
+<p>版本：iOS 5.1.1</p>
+
+<p>破解工具：<a href="http://greenpois0n.com/">Absinthe 2.0.2</a></p>
+
+<p>管理韌體檔案工具：<a href="http://www.macupdate.com/app/mac/38235/ipswdownloader">ipswDownloader</a></p>
+
+<blockquote><p>提供各種機型版本的韌體下載，並且告知是否有相對應的破解工具</p></blockquote>
+
+<h1>Cydia</h1>
+
+<h2>Add source</h2>
+
+<ol>
+<li>http://cydia.hackulo.us</li>
+<li>http://apt.iphone4.tw</li>
+<li>http://apt.weiphone.com/</li>
+<li>http://repo.insanelyi.com/</li>
+<li>http://apt.178.com</li>
+</ol>
+
+
+<h2>Install</h2>
+
+<ul>
+<li>Installous 4 <code>安裝 cydia.hackulo.us 版本</code></li>
+<li>Appsync for 5.0+ <code>安裝 cydia.hackulo.us 版本</code></li>
+<li>Optimized Zhuyin (*)</li>
+<li>蝦米</li>
+<li>iBlacklist</li>
+<li>SBSettings</li>
+<li>Remove Background</li>
+<li>3G Unrestrictor 5 (*)</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
