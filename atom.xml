@@ -4,7 +4,7 @@
   <title><![CDATA[skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-05-29T18:23:49-05:00</updated>
+  <updated>2012-05-29T19:09:45-05:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -48,10 +48,12 @@
 <li>Appsync for 5.0+ <code>安裝 cydia.hackulo.us 版本</code></li>
 <li>Optimized Zhuyin (*)</li>
 <li>蝦米</li>
-<li>iBlacklist</li>
 <li>SBSettings</li>
 <li>Remove Background</li>
 <li>3G Unrestrictor 5 (*)</li>
+<li>WeatherIcon</li>
+<li>xGPS</li>
+<li>Kuaidial</li>
 </ul>
 
 ]]></content>
