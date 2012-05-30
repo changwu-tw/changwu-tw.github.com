@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Alfred | skywalking's blog]]></title>
+  <link href="http://changwu-tw.github.com/blog/categories/alfred/atom.xml" rel="self"/>
+  <link href="http://changwu-tw.github.com/"/>
+  <updated>2012-05-29T20:13:58-05:00</updated>
+  <id>http://changwu-tw.github.com/</id>
+  <author>
+    <name><![CDATA[Chang-Wu Chen]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[阿福]]></title>
+    <link href="http://changwu-tw.github.com/blog/2012/05/29/how-to-use-toggle-alfred/"/>
+    <updated>2012-05-29T20:06:00-05:00</updated>
+    <id>http://changwu-tw.github.com/blog/2012/05/29/how-to-use-toggle-alfred</id>
+    <content type="html"><![CDATA[<h1>使用技巧</h1>
+
+<h2>iTunes</h2>
+
+<p>指令:<code>its</code></p>
+
+<blockquote><p>itunes://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?term={query}</p></blockquote>
+
+<h2>Mac App Store</h2>
+
+<p>指令：<code>mas</code></p>
+
+<blockquote><p>macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}</p></blockquote>
+
+<ul>
+<li><a href="http://alfredtips.com/s/popular/1/">更多有關阿福的搜尋技巧</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
