@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | skywalking's blog]]></title>
   <link href="http://changwu-tw.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://changwu-tw.github.com/"/>
-  <updated>2012-05-29T20:13:58-05:00</updated>
+  <updated>2012-06-24T17:28:08+08:00</updated>
   <id>http://changwu-tw.github.com/</id>
   <author>
     <name><![CDATA[Chang-Wu Chen]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Install Ruby on Rails on Mac OS X]]></title>
     <link href="http://changwu-tw.github.com/blog/2012/05/01/install-ruby-on-rails-on-mac-os-x/"/>
-    <updated>2012-05-01T16:03:00-05:00</updated>
+    <updated>2012-05-01T16:03:00+08:00</updated>
     <id>http://changwu-tw.github.com/blog/2012/05/01/install-ruby-on-rails-on-mac-os-x</id>
     <content type="html"><![CDATA[<h2>開發環境</h2>
 
@@ -102,7 +102,7 @@ $ ln -s /path/to/myapp project-name
   <entry>
     <title type="html"><![CDATA[Sqlite3 and Ruby]]></title>
     <link href="http://changwu-tw.github.com/blog/2012/04/27/sqlite3-and-ruby/"/>
-    <updated>2012-04-27T13:09:00-05:00</updated>
+    <updated>2012-04-27T13:09:00+08:00</updated>
     <id>http://changwu-tw.github.com/blog/2012/04/27/sqlite3-and-ruby</id>
     <content type="html"><![CDATA[<h2>Create a database</h2>
 
